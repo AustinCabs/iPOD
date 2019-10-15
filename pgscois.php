@@ -36,100 +36,28 @@
         Open Information System</h4> </h1>
 
     </div>
-    <div class="col-md-4 offset-md-4 mt-5">
-            <div class="input-group mb-3">
-            <input type="text" class="form-control" placeholder="" aria-label="Recipient's username" aria-describedby="basic-addon2">
-            <div class="input-group-append">
-                <button class="btn btn-info" type="submit"><span class="oi oi-magnifying-glass"></span> Search</button>
+            <div class="col-md-4 offset-md-4 mt-5">
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="Search Here...." aria-label="Recipient's username" aria-describedby="basic-addon2">
+                    <div class="input-group-append">
+                        <button class="btn btn-info" type="submit"><span class="oi oi-magnifying-glass"></span> Search</button>
+                    </div>
+                </div>
             </div>
+
+
+            <div class="col-lg-12 text-center mt-3 pb-5">
+                <h6 class="outline">Note: Search for File Name , Office, Year, Sector, File type or Keyword</h6>
             </div>
-    </div>
 
-    <div class="col-lg-12 text-center mt-5">
-         <div class="grid">
-              <div class="grid-sizer"></div>
-                <div class="grid-item"><div class="card" style="width: 15rem;">
-                          <img src="PGSC/images/sc.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
+            <div class="col-lg-12 text-center pt-5 pb-5">
+            </div>
+            
+            <div class="col-lg-12 text-center pt-5 pb-5">
+            </div>
 
-                <div class="grid-item"><div class="card" style="width: 15rem;">
-                          <img src="PGSC/images/sc.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                  <div class="grid-item"><div class="card" style="width: 15rem;">
-                          <img src="PGSC/images/sc.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                         <div class="grid-item"><div class="card" style="width: 15rem;">
-                          <img src="PGSC/images/sc.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                         <div class="grid-item"><div class="card" style="width: 15rem;">
-                          <img src="PGSC/images/sc.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="grid-item"><div class="card" style="width: 15rem;">
-                          <img src="PGSC/images/sc.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                  <div class="grid-item"><div class="card" style="width: 15rem;">
-                          <img src="PGSC/images/sc.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-                         <div class="grid-item"><div class="card" style="width: 15rem;">
-                          <img src="PGSC/images/sc.jpg" class="card-img-top" alt="...">
-                          <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <a href="#" class="btn btn-primary">Go somewhere</a>
-                        </div>
-                    </div>
-                </div>
-
-            </div> <!-- grid -->
-      
+    <div class="col-lg-12 text-center mt-5 pt-5">
+    <?php include 'function/php/grid.php';?> 
     </div> <!-- col-lg-12 -->
     
 </body>
