@@ -1,10 +1,10 @@
 <html>
 
 <head>
-<link rel="stylesheet" href="assets/bootstrap-4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="function/css/mycss.css">
-<link rel="stylesheet" href="function/css/animate.css">
-<link href="assets/open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+<link rel="stylesheet" href="../assets/bootstrap-4.3.1/css/bootstrap.css">
+<link rel="stylesheet" href="../function/css/mycss.css">
+<link rel="stylesheet" href="../function/css/animate.css">
+<link href="../assets/open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Poppins&display=swap" rel="stylesheet">
 
     <title></title>
@@ -14,7 +14,7 @@
     
     <div class="col-lg-12 text-center mt-5 wow bounceInUp"  >
 
-        <img src="iPOD/img/socot_logo.png">
+       <img src="../iPOD/img/socot_logo.png">
 
         <h1 class="outline"style="font-family: 'Montserrat', sans-serif;
         -webkit-text-stroke: 1px black;
@@ -58,38 +58,33 @@
             </div>
 
              <div class="col-lg-12 text-center pb-5  ">
-
-                <button id="scroll" class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-                    Search by Office
-                </button>
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bd-example-modal-xl" > Search by Office</button>
 
             </div>
             
 
 
             <div class="col-lg-12 text-center mt-5">
-                <div class=" container collapse" id="collapseExample">
-                    <div class="row" id="boundery">
-                                <?php include 'function/php/grid_bootstrap.php';?> 
+                <div class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog" aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-xl">
+                    <div class="modal-content container">
+                            <div class="row" id="boundery">
+                                <?php include '../function/php/grid_bootstrap.php';?> 
+                            </div>
+                       
                     </div>
+                  </div>
                 </div>
+
+        
         
             </div> <!-- col-lg-12 -->
     
 </body>
-<script src="assets/jquery/jquery-3.4.1.js"></script>
-<script src="assets/wow.min.js"></script>
-<Script>  new WOW().init(); </Script>
-<script src="assets/bootstrap-4.3.1/js/bootstrap.min.js"></script>
-<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="../assets/jquery/jquery-3.4.1.js"></script>
+<script src="../assets/bootstrap-4.3.1/js/bootstrap.min.js"></script>
 <script>
-  
-/*  $('.grid').masonry({
-      // options
-      itemSelector: '.grid-item',
-      columnWidth: '.grid-sizer',
-      fitWidth: true,
-    });*/
+
      $('#scoll').on('click', function(e) {
         e.preventDefault();
         $('html, body').animate({ scrollTop:  $('#boundery').offset().top - 0 }, 'slow');

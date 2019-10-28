@@ -42,7 +42,7 @@
                             		<td>61kb</td>
                             		<td>
                             			<a href="sample/secondary gad related data.odt" class="btn btn-success"><span class="oi oi-cloud-download"></span></a>
-                            			<a href="ViewerJS/#../sample/secondary gad related data.odt" target="_blank" class="btn btn-primary"><span class="oi oi-eye"></span></a>
+                            			<a href="Viewer/#../sample/secondary gad related data.odt" target="_blank" class="btn btn-primary"><span class="oi oi-eye"></span></a>
                             		</td>
                             	</tr>
 
@@ -54,7 +54,7 @@
                             		<td>7.6mb</td>
                             		<td>
                             			<a href="sample/SoCot Demographic Presentation.odp" class="btn btn-success"><span class="oi oi-cloud-download"></span></a>
-                            			<a href="ViewerJS/#../sample/SoCot Demographic Presentation.odp" target="_blank" class="btn btn-primary"><span class="oi oi-eye"></span></a>
+                            			<a href="Viewer/#../sample/SoCot Demographic Presentation.odp" target="_blank" class="btn btn-primary"><span class="oi oi-eye"></span></a>
                             		</td>
                             	</tr>
 
@@ -66,7 +66,7 @@
                             		<td>20kb</td>
                             		<td>
                             			<a href="sample/Statement of Comparison of Budget and Actual Amount.ods" class="btn btn-success"><span class="oi oi-cloud-download"></span></a>
-                            			<a href="ViewerJS/#../sample/Statement of Comparison of Budget and Actual Amount.ods" target="_blank" class="btn btn-primary"><span class="oi oi-eye"></span></a>
+                            			<a href="Viewer/#../sample/Statement of Comparison of Budget and Actual Amount.ods" target="_blank" class="btn btn-primary"><span class="oi oi-eye"></span></a>
                             		</td>
                             	</tr>
                         </tbody>
