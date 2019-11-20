@@ -11,7 +11,8 @@
 		<h3 style="color: #e74c3c">Directives</h3> -->
 		<?php
 		include 'function/php/core.php';
-
+		date_default_timezone_set("Asia/Singapore");
+		echo date("Y/m/d h:i A");
 		/*	$path="";
 		   $sql = "SELECT * FROM vw_file where uid=11";
                   $res = mysqli_query($conn, $sql);
@@ -22,7 +23,7 @@
                   echo '<br><a href="'.$path.'">South Cotabato Investment Code-2019</a><br><br>';
 
 */
-				$ppdo_path="";
+		/*		$ppdo_path="";
 				$error_id="";
 		         $sql = "SELECT * FROM tbl_path where uid_path=7";
                   $res = mysqli_query($conn, $sql);
@@ -31,20 +32,20 @@
                   		$error_id=$row['uid_path'];
                   }
 
-                 
+                 */
 
 
-		$dir = dirname(__FILE__).$ppdo_path;
+/*		$dir = dirname(__FILE__).$ppdo_path;
 		$scn = array_diff(scandir($dir), array('..', '.'));
 		foreach ($scn as $f ) {
-		/*	echo substr($f,0,-4)."<br>";*/
+			echo substr($f,0,-4)."<br>";
 			echo $f."<br>";
 		}
 		echo $dir;
 		echo "<br><br>";
 		echo '<h1> Path id ='.$error_id.'</H1>';
 		echo "<br><br>";
-		echo ",,pdf,".$error_id.",2";
+		echo ",,pdf,".$error_id.",2";*/
 		?>
 
 	<!-- 	<?php

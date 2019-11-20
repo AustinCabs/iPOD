@@ -7,19 +7,13 @@
   <title>iPOD</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="iPOD/js/rs-plugin/css/settings.css" media="screen">
-  <link rel="stylesheet" href="iPOD/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="assets/iPOD/js/rs-plugin/css/settings.css" media="screen">
+  <link rel="stylesheet" href="assets/iPOD/css/bootstrap.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700">
 
-  <link rel="stylesheet" href="iPOD/css/style.css">
+  <link rel="stylesheet" href="assets/iPOD/css/style.css">
   <!-- skin -->
-  <link rel="stylesheet" href="iPOD/skin/default.css">
-  <!-- =======================================================
-    Theme Name: Vlava
-    Theme URL: https://bootstrapmade.com/vlava-free-bootstrap-one-page-template/
-    Author: BootstrapMade.com
-    Author URL: https://bootstrapmade.com
-  ======================================================= -->
+  <link rel="stylesheet" href="assets/iPOD/skin/default.css">
 
 </head>
 
@@ -174,15 +168,15 @@
   <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
 
   <!-- Javascript Library Files -->
-  <script src="iPOD/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-  <script src="iPOD/js/jquery.js"></script>
-  <script src="iPOD/js/jquery.easing.1.3.js"></script>
-  <script src="iPOD/js/bootstrap.min.js"></script>
-  <script src="iPOD/js/jquery.localScroll.min.js"></script>
+  <script src="assets/iPOD/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+  <script src="assets/iPOD/js/jquery.js"></script>
+  <script src="assets/iPOD/js/jquery.easing.1.3.js"></script>
+  <script src="assets/iPOD/js/bootstrap.min.js"></script>
+  <script src="assets/iPOD/js/jquery.localScroll.min.js"></script>
 
 
   <!-- Template Main Javascript File -->
-  <script src="iPOD/js/main.js"></script>
+  <script src="assets/iPOD/js/main.js"></script>
 
 </body>
 
