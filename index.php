@@ -7,13 +7,13 @@
   <title>iPOD</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="assets/iPOD/js/rs-plugin/css/settings.css" media="screen">
-  <link rel="stylesheet" href="assets/iPOD/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="/assets/iPOD/js/rs-plugin/css/settings.css" media="screen">
+  <link rel="stylesheet" href="/assets/iPOD/css/bootstrap.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700">
 
-  <link rel="stylesheet" href="assets/iPOD/css/style.css">
+  <link rel="stylesheet" href="/assets/iPOD/css/style.css">
   <!-- skin -->
-  <link rel="stylesheet" href="assets/iPOD/skin/default.css">
+  <link rel="stylesheet" href="/assets/iPOD/skin/default.css">
 
 </head>
 
@@ -28,9 +28,9 @@
         <div class="navbar-logo">
 
                <div class="row">
-                      <a href="index.html"><img data-0="width: 100px; height:98px;" data-300=" width:50px; height:50px;" src="iPOD/img/OGP_logo.png" alt=""></a>
+                      <a href="https://ogpsouthcotabato20.wixsite.com/onlinearchives"><img data-0="width: 100px; height:98px;" data-300=" width:50px; height:50px;" src="assets/iPOD/img/OGP_logo.png" alt=""></a>
 
-                      <a href="index.html"><img data-0="width: 100px; height:95px;" data-300=" width:50px; height:50px;" src="iPOD/img/socot_logo.png" alt=""></a>
+                      <a href="https://southcotabato.gov.ph/"><img data-0="width: 100px; height:95px;" data-300=" width:50px; height:50px;" src="iPOD/img/socot_logo.png" alt=""></a>
                 </div>
 
         </div>
