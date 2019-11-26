@@ -1,3 +1,4 @@
+<?php include 'config/config.php'; ?>
 <!DOCTYPE html>
 <html>
 
@@ -7,13 +8,13 @@
   <title>iPOD</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="/assets/iPOD/js/rs-plugin/css/settings.css" media="screen">
-  <link rel="stylesheet" href="/assets/iPOD/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="<?php assets($s3,"/assets/iPOD/js/rs-plugin/css/settings.css");?>" media="screen">
+  <link rel="stylesheet" href="<?php assets($s3,"/assets/iPOD/css/bootstrap.css"); ?>" >
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700">
 
-  <link rel="stylesheet" href="/assets/iPOD/css/style.css">
+  <link rel="stylesheet" href="<?php assets($s3,"/assets/iPOD/css/style.css");?>">
   <!-- skin -->
-  <link rel="stylesheet" href="/assets/iPOD/skin/default.css">
+  <link rel="stylesheet" href="<?php assets($s3,"/assets/iPOD/skin/default.css");?>">
 
 </head>
 
@@ -28,16 +29,16 @@
         <div class="navbar-logo">
 
                <div class="row">
-                      <a href="https://ogpsouthcotabato20.wixsite.com/onlinearchives"><img data-0="width: 100px; height:98px;" data-300=" width:50px; height:50px;" src="assets/iPOD/img/OGP_logo.png" alt=""></a>
+                      <a href="https://ogpsouthcotabato20.wixsite.com/onlinearchives"><img data-0="width: 100px; height:98px;" data-300=" width:50px; height:50px;" src="<?php assets($s3,"/assets/iPOD/img/OGP_logo.png");?>" alt=""></a>
 
-                      <a href="https://southcotabato.gov.ph/"><img data-0="width: 100px; height:95px;" data-300=" width:50px; height:50px;" src="iPOD/img/socot_logo.png" alt=""></a>
+                      <a href="https://southcotabato.gov.ph/"><img data-0="width: 100px; height:95px;" data-300=" width:50px; height:50px;" src="<?php assets($s3,"/iPOD/img/socot_logo.png");?>" alt=""></a>
                 </div>
 
         </div>
       </div>
       <div class="navbar-collapse collapse">
         <ul class="nav navbar-nav" data-0="margin-top:20px;" data-300="margin-top:5px;">
-          <li class="active"><a href="index.html">Home</a></li>
+          <li class="active"><a href="<?php  $_SERVER['PHP_SELF']; ?>">Home</a></li>
          <!--  <li><a href="#section-about">About</a></li>
           <li><a href="#section-works">Portfolio</a></li>
           <li><a href="#section-contact">Contact</a></li> -->
@@ -168,15 +169,15 @@
   <a href="#header" class="scrollup"><i class="fa fa-chevron-up"></i></a>
 
   <!-- Javascript Library Files -->
-  <script src="assets/iPOD/js/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-  <script src="assets/iPOD/js/jquery.js"></script>
-  <script src="assets/iPOD/js/jquery.easing.1.3.js"></script>
-  <script src="assets/iPOD/js/bootstrap.min.js"></script>
-  <script src="assets/iPOD/js/jquery.localScroll.min.js"></script>
+  <script src="<?php assets($s3,"/assets/iPOD/js/modernizr-2.6.2-respond-1.1.0.min.js");?>"></script>
+  <script src="<?php assets($s3,"/assets/iPOD/js/jquery.js");?>"></script>
+  <script src="<?php assets($s3,"/assets/iPOD/js/jquery.easing.1.3.js");?>"></script>
+  <script src="<?php assets($s3,"/assets/iPOD/js/bootstrap.min.js");?>"></script>
+  <script src="<?php assets($s3,"/assets/iPOD/js/jquery.localScroll.min.js");?>"></script>
 
 
   <!-- Template Main Javascript File -->
-  <script src="assets/iPOD/js/main.js"></script>
+  <script src="<?php assets($s3,"/assets/iPOD/js/main.js");?>"></script>
 
 </body>
 
