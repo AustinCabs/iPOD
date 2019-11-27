@@ -1,20 +1,22 @@
- 	<html>
+<?php include 'config/config.php'; ?>
+<html>
 
 <head>
-<link rel="stylesheet" href="assets/bootstrap-4.3.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="function/css/mycss.css">
-<link rel="stylesheet" href="function/css/footer.css">
-<link href="assets/open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="<?php assets($s3,"/assets/bootstrap-4.3.1/css/bootstrap.min.css");?>">
+	<link rel="stylesheet" href="<?php assets($s3,"/function/css/mycss.css");?>">
+	<link rel="stylesheet" href="<?php assets($s3,"/function/css/footer.css");?>">
+	<link href="<?php assets($s3,"/assets/open-iconic-master/font/css/open-iconic-bootstrap.css");?>" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Poppins&display=swap" rel="stylesheet">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"> 
 
     <title></title>
 </head>
 
-<body>
+<body >
     
     <div class="col-lg-12 text-center mt-5 wow bounceInUp"  >
 
-        <img src="iPOD/img/socot_logo.png">
+        <img src="<?php assets($s3,"/assets/iPOD/img/socot_logo.png");?>">
 
         <h1 class="outline" style="font-family: 'Montserrat', sans-serif; ">
         PROVINCIAL GOVERMENT OF SOUTH COTABATO <br> 
@@ -62,7 +64,6 @@
             </div> <!-- col-lg-12 -->
 
 
-            <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"> 
 <!-- Footer -->
 		<footer class="pt-5 pb-4" id="contact">
 			<div class="container">
@@ -101,7 +102,7 @@
 						</ul>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
-						<h5 class="mb-4 font-weight-bold">FRESH TWEETS</h5>
+						<h5 class="mb-4 font-weight-bold">CONTACT INFORMATION</h5>
 						<ul class="f-address">
 							<li>
 								<div class="row">
@@ -150,7 +151,7 @@
 						</ul>
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
-						<h5 class="mb-4 font-weight-bold">CONNECT WITH US</h5>
+						<h5 class="mb-4 font-weight-bold">LOGIN</h5>
 						<div class="input-group">
 						  	<input type="text" class="form-control" placeholder="Your Email Address">
 						  	<span class="input-group-addon" id="basic-addon2"><i class="fas fa-check"></i></span>
@@ -171,7 +172,7 @@
 				<div class="row">
 					<div class="col-md-12 ">
 						<div class="text-center text-white">
-							&copy; 2018 Your Company. All Rights Reserved.
+							&copy; Copyright 2019  <a href="https://southcotabato.gov.ph/">Government of South Cotabato</a> | <a href="https://southcotabato.gov.ph/ogp/">OPEN GOVERNMENT PARTNERSHIP</a> | All Rights Reserved | Powered by PPDO-SPECIAL PROJECT DIVISION
 						</div>
 					</div>
 				</div>
@@ -179,8 +180,8 @@
 		</section>
     
 </body>
-<script src="assets/jquery/jquery-3.4.1.js"></script>
-<script src="assets/bootstrap-4.3.1/js/bootstrap.min.js"></script>
+<script src="<?php assets($s3,"/assets/jquery/jquery-3.4.1.js");?>"></script>
+<script src="<?php assets($s3,"/assets/bootstrap-4.3.1/js/bootstrap.min.js");?>"></script>
 <script>
      $('#scoll').on('click', function(e) {
         e.preventDefault();

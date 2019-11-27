@@ -1,13 +1,14 @@
+<?php include 'config/config.php'; ?>
 <!DOCTYPE html>
 <html>
 <head>
 	<title></title>
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedcolumns/3.3.0/css/fixedColumns.dataTables.min.css">
-  <link rel="stylesheet" href="assets/bootstrap-4.3.1/css/bootstrap.min.css">
-  <link href="assets/open-iconic-master/font/css/open-iconic-bootstrap.css" rel="stylesheet">
-  <link rel="stylesheet" href="function/css/mycss.css">
-  <link rel="stylesheet" href="function/css/AdminLTE.css">
+  <link rel="stylesheet" href="<?php assets($s3,"assets/bootstrap-4.3.1/css/bootstrap.min.css");?>">
+  <link href="<?php assets($s3,"assets/open-iconic-master/font/css/open-iconic-bootstrap.css");?>" rel="stylesheet">
+  <link rel="stylesheet" href="<?php assets($s3,"function/css/mycss.css");?>">
+  <link rel="stylesheet" href="<?php assets($s3,"function/css/AdminLTE.css");?>">
 
 </head>
 <body>
@@ -17,7 +18,7 @@
             
             <div class="box-header"> 
               <?php  
-                  require_once 'function/php/core.php';
+              /*    require_once 'function/php/core.php';*/
                   $office= $_GET['office'];
                   $sql1="SELECT name_office,name_sector FROM tbl_office o inner join tbl_sector s on o.uid_sector = s.uid_sector 
                   where o.acro_office = '$office' ";
@@ -78,9 +79,6 @@
       $('#example').DataTable(
       );
 
-      $("#back").click(function(){
-       window.location.href="pgsc_information_system.php";
-       }); 
     } );//document reacy
    </script>
 

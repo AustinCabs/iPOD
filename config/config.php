@@ -4,18 +4,18 @@ date_default_timezone_set("Asia/Singapore");
 //echo date("m/d/Y h:i A");
 
 // S3 
-$s3="https://www.tutorialrepublic.com";
-function assets ($s3,$a)
+$s3="";	
+function assets ($s3,$asset_path)
 {
 	if ($s3=="") {
-		echo $a;
+		echo $asset_path;
 	}
 	else
 	{
-	echo $s3.$a;
+	echo $s3.$asset_path;
 	}
 }
-
+assets($s3,"");
 //RDS 
 $host="localhost";
 $user="root";
@@ -24,6 +24,7 @@ $db="pgscois";
 $conn = new mysqli($host,$user,$pass,$db);
 if (mysqli_connect_errno())
   {
-  echo "Failed to connect to MySQL: " . mysqli_connect_error();
+  	/*echo "Failed to connect to MySQL: " . mysqli_connect_error();*/
+  	echo '<script> alert("Failed to connect DB"); </script>';
   }
 ?>
