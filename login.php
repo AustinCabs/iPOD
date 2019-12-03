@@ -8,17 +8,17 @@
   <!-- Tell the browser to be responsive to screen width -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!-- Font Awesome -->
-  <link rel="stylesheet" href="<?php assets($s3,"/assets/AdminLTE/plugins/fontawesome-free/css/all.min.css");?>">
+  <link rel="stylesheet" href="<?php assets($environment,"assets/AdminLTE/plugins/fontawesome-free/css/all.min.css");?>">
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- icheck bootstrap -->
-  <link rel="stylesheet" href="<?php assets($s3,"/assets/AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css");?>">
+  <link rel="stylesheet" href="<?php assets($environment,"assets/AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css");?>">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?php assets($s3,"/assets/AdminLTE/dist/css/adminlte.css");?>">
+  <link rel="stylesheet" href="<?php assets($environment,"assets/AdminLTE/dist/css/adminlte.css");?>">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
-  <style type="text/css">body{background:url(<?php assets($s3,"/assets/PGSC/images/login.jpg");?>) no-repeat center center fixed!important; }</style>
+  <style type="text/css">body{background:url(<?php assets($environment,"assets/PGSC/images/login.jpg");?>) no-repeat center center fixed!important; }</style>
 </head>
 <body class="hold-transition login-page">
 <div class="login-box">
@@ -27,7 +27,7 @@
   </div> -->
   <!-- /.login-logo -->
       <div class="login-logo">
-          <img src="<?php assets($s3,"/assets/iPOD/img/socot_logo.png");?>">
+          <img src="<?php assets($environment,"assets/iPOD/img/socot_logo.png");?>">
       </div>
   <div class="card">
     <div class="card-body login-card-body">
@@ -70,11 +70,11 @@
 <!-- /.login-box -->
 
 <!-- jQuery -->
-<script src="<?php assets($s3,"/assets/AdminLTE/plugins/jquery/jquery.min.js");?>"></script>
+<script src="<?php assets($environment,"assets/AdminLTE/plugins/jquery/jquery.min.js");?>"></script>
 <!-- Bootstrap 4 -->
-<script src="<?php assets($s3,"/assets/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js");?>"></script>
+<script src="<?php assets($environment,"assets/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js");?>"></script>
 <!-- AdminLTE App -->
-<script src="<?php assets($s3,"/assets/AdminLTE/dist/js/adminlte.min.js");?>"></script>
+<script src="<?php assets($environment,"assets/AdminLTE/dist/js/adminlte.min.js");?>"></script>
 
 </body>
 </html>

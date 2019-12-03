@@ -5,10 +5,10 @@
 	<title></title>
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.20/css/jquery.dataTables.min.css">
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/fixedcolumns/3.3.0/css/fixedColumns.dataTables.min.css">
-  <link rel="stylesheet" href="<?php assets($s3,"assets/bootstrap-4.3.1/css/bootstrap.min.css");?>">
-  <link href="<?php assets($s3,"assets/open-iconic-master/font/css/open-iconic-bootstrap.css");?>" rel="stylesheet">
-  <link rel="stylesheet" href="<?php assets($s3,"function/css/mycss.css");?>">
-  <link rel="stylesheet" href="<?php assets($s3,"function/css/AdminLTE.css");?>">
+  <link rel="stylesheet" href="<?php assets($environment,"assets/bootstrap-4.3.1/css/bootstrap.min.css");?>">
+  <link href="<?php assets($environment,"assets/open-iconic-master/font/css/open-iconic-bootstrap.css");?>" rel="stylesheet">
+  <link rel="stylesheet" href="<?php assets($environment,"function/css/mycss.css");?>">
+  <link rel="stylesheet" href="<?php assets($environment,"function/css/AdminLTE.css");?>">
 
 </head>
 <body>

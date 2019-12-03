@@ -2,10 +2,10 @@
 <html>
 
 <head>
-	<link rel="stylesheet" href="<?php assets($s3,"/assets/bootstrap-4.3.1/css/bootstrap.min.css");?>">
-	<link rel="stylesheet" href="<?php assets($s3,"/function/css/mycss.css");?>">
-	<link rel="stylesheet" href="<?php assets($s3,"/function/css/footer.css");?>">
-	<link href="<?php assets($s3,"/assets/open-iconic-master/font/css/open-iconic-bootstrap.css");?>" rel="stylesheet">
+	<link rel="stylesheet" href="<?php assets($environment,"assets/bootstrap-4.3.1/css/bootstrap.min.css");?>">
+	<link rel="stylesheet" href="<?php assets($environment,"function/css/mycss.css");?>">
+	<link rel="stylesheet" href="<?php assets($environment,"function/css/footer.css");?>">
+	<link href="<?php assets($environment,"assets/open-iconic-master/font/css/open-iconic-bootstrap.css");?>" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:700|Poppins&display=swap" rel="stylesheet">
 	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet"> 
 
@@ -16,7 +16,7 @@
     
     <div class="col-lg-12 text-center mt-5 wow bounceInUp"  >
 
-        <img src="<?php assets($s3,"/assets/iPOD/img/socot_logo.png");?>">
+        <img src="<?php assets($environment,"assets/iPOD/img/socot_logo.png");?>">
 
         <h1 class="outline" style="font-family: 'Montserrat', sans-serif; ">
         PROVINCIAL GOVERMENT OF SOUTH COTABATO <br> 
@@ -180,8 +180,8 @@
 		</section>
     
 </body>
-<script src="<?php assets($s3,"/assets/jquery/jquery-3.4.1.js");?>"></script>
-<script src="<?php assets($s3,"/assets/bootstrap-4.3.1/js/bootstrap.min.js");?>"></script>
+<script src="<?php assets($environment,"assets/jquery/jquery-3.4.1.js");?>"></script>
+<script src="<?php assets($environment,"assets/bootstrap-4.3.1/js/bootstrap.min.js");?>"></script>
 <script>
      $('#scoll').on('click', function(e) {
         e.preventDefault();
