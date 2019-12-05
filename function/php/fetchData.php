@@ -1,5 +1,4 @@
 <?php
-require_once 'core.php';
 
 $search=null;
 
@@ -8,8 +7,9 @@ if (isset($_POST["search_data"])) {
 	$search= $_POST['search_data'];
 
 
-$sql="SELECT * FROM vw_file WHERE name_file LIKE '%$search%' OR acro_office LIKE '%$search%' 
-OR name_sector LIKE '%$search%' OR year_file LIKE '%$search%' OR type_file LIKE '%$search%'";
+$sql="SELECT file_id,file_name,office_abbreviation,sub_office_abbreviation,file_type,path FROM files
+f LEFT JOIN sub_offices s ON f.sub_office_id = s.sub_office_id
+LEFT JOIN offices o ON f.office_id = o.office_id";
 
 $res = mysqli_query($conn,$sql);
 
@@ -24,9 +24,7 @@ if ($res->num_rows > 0) {
 						<tr> 
 							<td>'.$row['name_file'].' </td>
 							<td>'.$row['acro_office'].' </td>
-							<td>'.$row['name_sector'].' </td>
 							<td>'.$row['type_file'].' </td>
-							<td>'.$row['detail_path'].' </td>
 							<td>'.$download.' </td>
 						</tr>
 					
