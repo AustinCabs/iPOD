@@ -4,22 +4,21 @@ date_default_timezone_set("Asia/Singapore");
 //echo date("m/d/Y h:i A");
 
 // S3 
-$environment="developments";	// development or production
+$environment="development";	// development or production
 $file_url="assets/PGSC/";
 $s3="";
-function assets ($environment,$asset_url,$s3)
+function assets ($s3,$environment,$asset_url)
 {
 	if ($environment=="development") {
 		echo $asset_url;
 	}
 	else
 	{	
-		//echo $s3.$asset_url.'<br>';
-		return $file_path =$s3.$file_url;
+		echo $s3.$asset_url;
 	}
 }
 
-function file_path ($environment,$file_url,$s3)
+function file_path ($s3,$environment,$file_url)
 {
 	if ($environment=="development") 
 	{

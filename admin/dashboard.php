@@ -12,19 +12,19 @@
   <!-- Ionicons -->
   <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
   <!-- Tempusdominus Bbootstrap 4 -->
-  <link rel="stylesheet" href="<?php assets($environment,"../assets/AdminLTE/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css");?>">
+  <link rel="stylesheet" href="<?php assets($s3,$environment,"../assets/AdminLTE/plugins/tempusdominus-bootstrap-4/css/tempusdominus-bootstrap-4.min.css");?>">
   <!-- iCheck -->
-  <link rel="stylesheet" href="<?php assets($environment,"../assets/AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css");?>">
+  <link rel="stylesheet" href="<?php assets($s3,$environment,"../assets/AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css");?>">
   <!-- JQVMap -->
-  <link rel="stylesheet" href="<?php assets($environment,"../assets/AdminLTE/plugins/jqvmap/jqvmap.min.css");?>">
+  <link rel="stylesheet" href="<?php assets($s3,$environment,"../assets/AdminLTE/plugins/jqvmap/jqvmap.min.css");?>">
   <!-- Theme style -->
-  <link rel="stylesheet" href="<?php assets($environment,"../assets/AdminLTE/dist/css/adminlte.min.css");?>">
+  <link rel="stylesheet" href="<?php assets($s3,$environment,"../assets/AdminLTE/dist/css/adminlte.min.css");?>">
   <!-- overlayScrollbars -->
-  <link rel="stylesheet" href="<?php assets($environment,"../assets/AdminLTE/plugins/overlayScrollbars/css/OverlayScrollbars.min.css");?>">
+  <link rel="stylesheet" href="<?php assets($s3,$environment,"../assets/AdminLTE/plugins/overlayScrollbars/css/OverlayScrollbars.min.css");?>">
   <!-- Daterange picker -->
-  <link rel="stylesheet" href="<?php assets($environment,"../assets/AdminLTE/plugins/daterangepicker/daterangepicker.css");?>">
+  <link rel="stylesheet" href="<?php assets($s3,$environment,"../assets/AdminLTE/plugins/daterangepicker/daterangepicker.css");?>">
   <!-- summernote -->
-  <link rel="stylesheet" href="<?php assets($environment,"../assets/AdminLTE/plugins/summernote/summernote-bs4.css");?>">
+  <link rel="stylesheet" href="<?php assets($s3,$environment,"../assets/AdminLTE/plugins/summernote/summernote-bs4.css");?>">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 </head>
@@ -46,7 +46,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      <img src="<?php assets($environment,"../assets/AdminLTE/dist/img/AdminLTELogo.png");?>" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
+      <img src="<?php assets($s3,$environment,"../assets/AdminLTE/dist/img/AdminLTELogo.png");?>" alt="AdminLTE Logo" class="brand-image img-circle elevation-3"
            style="opacity: .8">
       <span class="brand-text font-weight-light">PGSCIOS</span>
     </a>
@@ -56,7 +56,7 @@
       <!-- Sidebar user panel (optional) -->
       <div class="user-panel mt-3 pb-3 mb-3 d-flex">
         <div class="image">
-          <img src="<?php assets($environment,"../assets/AdminLTE/dist/img/user2-160x160.jpg");?>" class="img-circle elevation-2" alt="User Image">
+          <img src="<?php assets($s3,$environment,"../assets/AdminLTE/dist/img/user2-160x160.jpg");?>" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
           <a href="#" class="d-block">USER</a>
@@ -189,19 +189,19 @@
 <!-- ./wrapper -->
 
 <!-- jQuery -->
-<script src="<?php assets($environment,"../assets/AdminLTE/plugins/jquery/jquery.min.js");?>"></script>
+<script src="<?php assets($s3,$environment,"../assets/AdminLTE/plugins/jquery/jquery.min.js");?>"></script>
 <!-- jQuery UI 1.11.4 -->
-<script src="<?php assets($environment,"../assets/AdminLTE/plugins/jquery-ui/jquery-ui.min.js");?>"></script>
+<script src="<?php assets($s3,$environment,"../assets/AdminLTE/plugins/jquery-ui/jquery-ui.min.js");?>"></script>
 
 <!-- Bootstrap 4 -->
-<script src="<?php assets($environment,"../assets/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js");?>"></script>
+<script src="<?php assets($s3,$environment,"../assets/AdminLTE/plugins/bootstrap/js/bootstrap.bundle.min.js");?>"></script>
 <!-- overlayScrollbars -->
-<script src="<?php assets($environment,"../assets/AdminLTE/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js");?>"></script>
+<script src="<?php assets($s3,$environment,"../assets/AdminLTE/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js");?>"></script>
 <!-- AdminLTE App -->
-<script src="<?php assets($environment,"../assets/AdminLTE/dist/js/adminlte.js");?>"></script>
+<script src="<?php assets($s3,$environment,"../assets/AdminLTE/dist/js/adminlte.js");?>"></script>
 <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-<script src="<?php assets($environment,"../assets/AdminLTE/dist/js/pages/dashboard.js");?>"></script>
+<script src="<?php assets($s3,$environment,"../assets/AdminLTE/dist/js/pages/dashboard.js");?>"></script>
 <!-- AdminLTE for demo purposes -->
-<script src="<?php assets($environment,"../assets/AdminLTE/dist/js/demo.js");?>"></script>
+<script src="<?php assets($s3,$environment,"../assets/AdminLTE/dist/js/demo.js");?>"></script>
 </body>
 </html>

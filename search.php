@@ -6,10 +6,10 @@
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap4.min.css">
 
-   <link href="<?php assets($environment,"assets/open-iconic-master/font/css/open-iconic-bootstrap.css");?>" rel="stylesheet">
+   <link href="<?php assets($s3,$environment,"assets/open-iconic-master/font/css/open-iconic-bootstrap.css");?>" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css">
-    <link rel="stylesheet" href="<?php assets($environment,"function/css/mycss.css");?>">
-    <link rel="stylesheet" href="<?php assets($environment,"function/css/AdminLTE.css");?>">
+    <link rel="stylesheet" href="<?php assets($s3,$environment,"function/css/mycss.css");?>">
+    <link rel="stylesheet" href="<?php assets($s3,$environment,"function/css/AdminLTE.css");?>">
 
 </head>
 <body>
