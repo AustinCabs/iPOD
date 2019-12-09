@@ -27,9 +27,7 @@
                         <tr>
                             <th>File Name</th>
                             <th>Office</th>
-                            <th>Sector</th>
                             <th>file type</th>
-                            <th>Details</th>
                             <th width="5%">Action</th>
                         </tr>
                         </thead>

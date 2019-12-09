@@ -22,11 +22,11 @@ function file_path ($s3,$environment,$file_url)
 {
 	if ($environment=="development") 
 	{
-		echo $file_url;
+		return $file_url;
 	}
 	else
 	{	
-		echo $s3.$file_url;
+		return $s3.$file_url;
 	}	
 }
 
