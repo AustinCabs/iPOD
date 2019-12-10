@@ -110,7 +110,7 @@
                     </div>
                   </div>
 
-                  <div class="col-md-3 col-sm-6 col-xs-12">
+            <!--       <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="card" style="width: 12rem;">
                       <img src="assets/PGSC/images/pgsc-back.jpg" class="card-img-top" alt="...">
                       <div class="card-body">
@@ -120,7 +120,7 @@
                       </div>
                     </div>
                   </div>
-
+ -->
                   <div class="col-md-3 col-sm-6 col-xs-12">
                     <div class="card" style="width: 12rem;">
                       <img src="assets/PGSC/images/pgsc-back.jpg" class="card-img-top" alt="...">

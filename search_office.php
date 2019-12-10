@@ -17,7 +17,7 @@
         <div class="box box-primary ">
             
             <div class="box-header"> 
-              <?php  
+        <!--       <?php  
               /*    require_once 'function/php/core.php';*/
                   $office= $_GET['office'];
                   $sql1="SELECT name_office,name_sector FROM tbl_office o inner join tbl_sector s on o.uid_sector = s.uid_sector 
@@ -27,7 +27,7 @@
                         echo ' <H3> '.$row1["name_office"].' <BR> <h4>'.$row1["name_sector"].' Data</h4></H3>';
                    }
 
-              ?>
+              ?> -->
            
          <!--    <a id="back"  class="btn btn-defualt" ><span class="oi oi-arrow-circle-left"></span> Search Again </a>  -->
             </div>
@@ -37,13 +37,12 @@
                         <thead>
                         <tr>
                           <th>File Name</th>
-                          <th>Details</th>
                           <th>file type</th>
                           <th>Action</th>
                         </tr>
                         </thead>
                         <tbody>
-                                <?php  include 'function/php/fetchDatabyOffice.php'?>
+                                <?php  include 'function/php/fetchDataByOffice.php'?>
                         </tbody>
                     </table>
                 </div>
