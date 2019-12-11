@@ -32,8 +32,9 @@ CREATE TABLE `accounts` (
   `is_active` int(1) DEFAULT NULL,
   `office_id` int(11) DEFAULT NULL,
   `sub_office_id` int(11) DEFAULT NULL,
+  `employee_id` int(10) DEFAULT NULL COMMENT '110005628',
   PRIMARY KEY (`account_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+) ENGINE=InnoDB AUTO_INCREMENT=2 DEFAULT CHARSET=latin1;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -42,6 +43,7 @@ CREATE TABLE `accounts` (
 
 LOCK TABLES `accounts` WRITE;
 /*!40000 ALTER TABLE `accounts` DISABLE KEYS */;
+INSERT INTO `accounts` VALUES (1,'admin','$2y$12$1c4ghmMTAqXsC..e6wBRuej53P5D/4zHTFYLF94MjrwZe/q69KZJ6',NULL,NULL,NULL,NULL,NULL,NULL,NULL);
 /*!40000 ALTER TABLE `accounts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -166,4 +168,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2019-12-10 15:34:52
+-- Dump completed on 2019-12-11 13:23:30

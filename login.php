@@ -15,6 +15,8 @@
   <link rel="stylesheet" href="<?php assets($s3,$environment,"assets/AdminLTE/plugins/icheck-bootstrap/icheck-bootstrap.min.css");?>">
   <!-- Theme style -->
   <link rel="stylesheet" href="<?php assets($s3,$environment,"assets/AdminLTE/dist/css/adminlte.css");?>">
+
+  <link rel="stylesheet" href="<?php assets($s3,$environment,"assets/AdminLTE/plugins/toastr/toastr.css");?>">
   <!-- Google Font: Source Sans Pro -->
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
 
@@ -33,9 +35,9 @@
     <div class="card-body login-card-body">
       <p class="login-box-msg"><b> Provincial Goverment of South Cotabato</b> <br> Information System</p>
 
-      <form action="../../index3.html" method="post">
+      <form action="function/php/ajax_login.php" id="form_login" method="post">
         <div class="input-group mb-3">
-          <input type="text" class="form-control" placeholder="User">
+          <input type="text" class="form-control" id="user" name="user" required placeholder="User">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-user"></span>
@@ -43,7 +45,7 @@
           </div>
         </div>
         <div class="input-group mb-3">
-          <input type="password" class="form-control" placeholder="Password">
+          <input type="password" class="form-control" id="password" name="password" required placeholder="Password">
           <div class="input-group-append">
             <div class="input-group-text">
               <span class="fas fa-lock"></span>
@@ -56,7 +58,7 @@
           </div>
           <!-- /.col -->
           <div class="col-4">
-            <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+            <button type="submit" id="btn_login" class="btn btn-primary btn-block">Sign In</button>
           </div>
           <!-- /.col -->
         </div>
@@ -76,5 +78,29 @@
 <!-- AdminLTE App -->
 <script src="<?php assets($s3,$environment,"assets/AdminLTE/dist/js/adminlte.min.js");?>"></script>
 
+<script src="<?php assets($s3,$environment,"assets/AdminLTE/plugins/toastr/toastr.min.js");?>"></script>
+<script type="text/javascript">
+  $( document ).ready(function() {
+
+    $( "#form_login" ).submit(function( e ) {
+      event.preventDefault();
+      let form = $(this);
+        $.ajax({
+          url : form.attr('action'),
+          type: form.attr('method'),
+          data: form.serialize(),
+          dataType: 'json',
+          success:function(data)
+          {
+            alert(data);
+            console.log(data);
+            toastr.info(data);
+          }
+        })
+
+    });
+
+  });
+</script>
 </body>
 </html>
