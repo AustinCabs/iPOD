@@ -1,7 +1,7 @@
 <?php 
 //timezone
 date_default_timezone_set("Asia/Singapore");
-//echo date("m/d/Y h:i A");
+$time=date("m/d/Y h:i A");
 
 // S3 
 $environment="development";	// development or production
@@ -34,7 +34,7 @@ function file_path ($s3,$environment,$file_url)
 $host="localhost";
 $user="root";
 $pass="";
-$db="pgscois_db";
+$db="pgscois_copy";
 $conn = new mysqli($host,$user,$pass,$db);
 if (mysqli_connect_errno())
   {

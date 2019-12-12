@@ -79,28 +79,6 @@
 <script src="<?php assets($s3,$environment,"assets/AdminLTE/dist/js/adminlte.min.js");?>"></script>
 
 <script src="<?php assets($s3,$environment,"assets/AdminLTE/plugins/toastr/toastr.min.js");?>"></script>
-<script type="text/javascript">
-  $( document ).ready(function() {
-
-    $( "#form_login" ).submit(function( e ) {
-      event.preventDefault();
-      let form = $(this);
-        $.ajax({
-          url : form.attr('action'),
-          type: form.attr('method'),
-          data: form.serialize(),
-          dataType: 'json',
-          success:function(data)
-          {
-            alert(data);
-            console.log(data);
-            toastr.info(data);
-          }
-        })
-
-    });
-
-  });
-</script>
+<script src="function/js/login.js" type="text/javascript"></script>
 </body>
 </html>
