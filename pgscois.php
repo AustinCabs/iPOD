@@ -153,8 +153,7 @@
 					<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
 						<h5 class="mb-4 font-weight-bold">LOGIN</h5>
 						<div class="input-group">
-						  	<input type="text" class="form-control" placeholder="Your Email Address">
-						  	<span class="input-group-addon" id="basic-addon2"><i class="fas fa-check"></i></span>
+						  	<a href="login.php" class="btn btn-info">Click to Login</a>
 						</div>
 						<ul class="social-pet mt-4">
 							<li><a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a></li>

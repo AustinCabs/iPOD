@@ -1,4 +1,4 @@
-<?php include 'config/config.php'; ?>
+<?php include 'config/assets_url.php'; ?>
 <!DOCTYPE html>
 <html>
 
