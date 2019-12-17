@@ -16,7 +16,7 @@
 <script src="<?php assets($s3,$environment,"../assets/AdminLTE/dist/js/demo.js");?>"></script>
 <script type="text/javascript">
 	window.addEventListener("beforeunload", function (e) {
-  var confirmationMessage = "\o/";
+  var confirmationMessage = "Are want to change window? or Want to Close tab ? Dont forget to signout";
 
   (e || window.event).returnValue = confirmationMessage; //Gecko + IE
   return confirmationMessage;                            //Webkit, Safari, Chrome

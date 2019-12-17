@@ -64,6 +64,15 @@
       <nav class="mt-2">
          <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
 
+          <li class="nav-header">USERS</li>
+
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p> Manage User</p>
+            </a>
+          </li>
+
           <li class="nav-item">
             <a href="" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
@@ -74,9 +83,27 @@
           <li class="nav-item">
             <a href="" class="nav-link">
               <i class="nav-icon fas fa-th"></i>
+              <p>Activity Log</p>
+            </a>
+          </li>
+
+         <li class="nav-header">FILES</li>
+
+          <li class="nav-item">
+            <a href="" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
               <p>Manage Files</p>
             </a>
           </li>
+
+           <li class="nav-item">
+            <a href="" class="nav-link">
+              <i class="nav-icon fas fa-th"></i>
+              <p>Add File</p>
+            </a>
+          </li>
+
+         <li class="nav-header"></li>
 
           <li class="nav-item">
             <a href="../function/php/logout.php" class="nav-link">

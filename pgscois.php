@@ -108,12 +108,14 @@
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
 						<h5 class="mb-4 font-weight-bold">SOCIAL MEDIA</h5>
-						<ul class="social">
-							<li><a href="#" title="facebook"><i class="fab fa-facebook-square"></i></a></li>
+						<ul class="social-pet mt-4">
+							<li><a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a></li>
 							<li><a href="#" title="twitter"><i class="fab fa-twitter"></i></a></li>
 							<li><a href="#" title="google-plus"><i class="fab fa-google-plus-g"></i></a></li>
 							<li><a href="#" title="instagram"><i class="fab fa-instagram"></i></a></li>
 						</ul>
+
+						
 					</div>
 					<div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
 						<h5 class="mb-4 font-weight-bold">LOGIN</h5>

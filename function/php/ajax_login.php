@@ -5,9 +5,7 @@ session_start();
 $valid['success'] = array('success' => false, 'messages' => array(),'url' => array());
 
 if (isset($_POST['user'])&&isset($_POST['password'])) 
-{	 
-	if (empty($_SESSION['account_id']))
-	 {
+{	
 		 $user=mysqli_real_escape_string($conn,$_POST['user']);
 		 $pass=mysqli_real_escape_string($conn,$_POST['password']);
 
@@ -57,12 +55,6 @@ if (isset($_POST['user'])&&isset($_POST['password']))
 			$valid['messages'] = "Something went wrong..";
 		  }
 	
-	 }
-	 else
-	 {
-	 	$valid['success'] = false;
-	 	$valid['messages'] = "Account is in use..";
-	 }
 	
 	  if (!empty($_SESSION['account_id'])) {
 	  	$sql1="INSERT INTO activity_logs (action,time,account_id) VALUES ('Login','$time','{$_SESSION['account_id']}')";
