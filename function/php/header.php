@@ -1,8 +1,8 @@
-<?php 
-  session_start();
-  if (!isset($_SESSION['account_id'])) {
-      header('location:../login.php');
-  }
+<?php
+session_start();
+if (!isset($_SESSION['account_id'])) {
+  header('location:../login.php');
+}
 ?>
 <!DOCTYPE html>
 <html>

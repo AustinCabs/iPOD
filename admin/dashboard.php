@@ -1,5 +1,20 @@
-<?php include '../config/config.php';?>
-<?php include '../function/php/header.php' ?>
+<?php 
+include '../config/config.php';
+include '../function/php/header.php';
+
+$sql="SELECT COUNT(*) FROM pgscois_copy.files";
+$res = mysqli_query($conn,$sql);
+$number_files_fetch=mysqli_fetch_assoc($res);
+$number_files = $number_files_fetch['COUNT(*)'];
+
+$sql1="SELECT COUNT(*) FROM pgscois_copy.accounts";
+$res1 = mysqli_query($conn,$sql1);
+$number_user_fetch=mysqli_fetch_assoc($res1);
+$number_user = $number_user_fetch['COUNT(*)'];
+
+$number_visitor = file_get_contents("../visitor_count.txt");
+
+?>
 
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
@@ -26,7 +41,7 @@
             <!-- small box -->
             <div class="small-box bg-success">
               <div class="inner">
-                <h3>53</h3>
+                <h3><?php echo $number_files;?></h3>
 
                 <p>No. File</p>
               </div>
@@ -41,7 +56,7 @@
             <!-- small box -->
             <div class="small-box bg-warning">
               <div class="inner">
-                <h3>44</h3>
+                <h3><?php echo $number_user;?></h3>
 
                 <p>No. Users</p>
               </div>
@@ -56,7 +71,7 @@
             <!-- small box -->
             <div class="small-box bg-danger">
               <div class="inner">
-                <h3>65</h3>
+                <h3><?php echo $number_visitor; ?></h3>
 
                 <p>No. Visitors</p>
               </div>

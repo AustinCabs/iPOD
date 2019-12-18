@@ -1,4 +1,10 @@
-<?php include 'config/config.php'; ?>
+<?php include 'config/config.php'; 
+$current_visitors=file_get_contents("visitor_count.txt");
+$file = fopen("visitor_count.txt", "w") or die("Unable to open file!");
+$total_number_visitors=$current_visitors + 1;
+fwrite($file, $total_number_visitors);
+fclose($file);
+?>
 <html>
 
 <head>
