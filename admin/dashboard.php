@@ -115,3 +115,5 @@ $number_visitor = file_get_contents("../visitor_count.txt");
 </div>
 <!-- ./wrapper -->
 <?php include '../function/php/footer.php' ?>
+</body>
+</html>

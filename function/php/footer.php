@@ -22,5 +22,3 @@
   return confirmationMessage;                            //Webkit, Safari, Chrome
 });
 </script>
-</body>
-</html>
